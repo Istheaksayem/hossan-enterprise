@@ -15,8 +15,8 @@ export default function Navbar() {
         <li><Link href="/about" className="nav-link">About Us</Link></li>
         <li><Link href="/contact" className="nav-link">Contact</Link></li>
       </ul>
-      <Link href="/shop" className="nav-cta">
-        Shop Now
+      <Link href="/auth" className="nav-cta">
+        Login
       </Link>
     </nav>
   );
